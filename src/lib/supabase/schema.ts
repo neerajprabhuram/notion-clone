@@ -1,4 +1,4 @@
-import { prices, subscriptionStatus, users } from "@/migrations/schema";
+import { prices, subscriptionStatus, users } from "../../../migrations/schema";
 import { sql } from "drizzle-orm";
 import {
   boolean,
