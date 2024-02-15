@@ -138,6 +138,7 @@ const HomePage = () => {
         </div>
       </section>
       <section
+        id="features"
         className="px-4
         sm:px-6
         flex
@@ -180,7 +181,7 @@ const HomePage = () => {
           <Image src={Cal} alt="Banner" className="rounded-2xl" />
         </div>
       </section>
-      <section className="relative">
+      <section id="testimonials" className="relative">
         <div
           className="w-full
           blur-[120px]
@@ -263,6 +264,7 @@ const HomePage = () => {
         </div>
       </section>
       <section
+        id="pricing"
         className="mt-20
         px-4
         sm:px-6
