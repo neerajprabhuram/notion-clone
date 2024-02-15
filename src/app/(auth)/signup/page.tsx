@@ -95,7 +95,7 @@ const Signup = () => {
         >
           An all-In-One Collaboration and Productivity Platform
         </FormDescription>
-        {!confirmation && !codeExchangeError && (
+        {!confirmation && (
           <>
             <FormField
               disabled={isLoading}
